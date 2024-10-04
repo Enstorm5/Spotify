@@ -26,5 +26,5 @@ export const GET = async (req) => {
   console.log('Refresh Token:', tokenData.refresh_token);
 
   // Redirect the user or return a response
-  return NextResponse.redirect('https://your-vercel-url/success'); // Change this to your success URL
+  return NextResponse.redirect('https://spotify-1gwf9ha5a-enstorm5s-projects.vercel.app/success'); // Change this to your success URL
 };
